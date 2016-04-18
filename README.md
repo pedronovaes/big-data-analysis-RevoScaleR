@@ -1,4 +1,7 @@
-Some codes for big data analysis using RevoScale R, an R package that provides functions for performing scalable and extremely high performance data managemente, analysis and visualization.
+Some codes to analyse a data set containing information on flight arrival and departure details for all commercial flights within the USA, from October 1987 to April 2008.
+
+For this big data analysis, I used RevoScale R, an R package that provides functions for performing scalable and extremely high performance data managemente, analysis and visualization.
+
 RevoScale R are particularly useful in three common situations:
 
 1) to analyze data sets that are too big to fit in memory and,
