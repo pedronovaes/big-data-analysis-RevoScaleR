@@ -2,7 +2,7 @@
 # this code convert csv file to xdf file
 
 # rxGetOption is used to retrieve the data directory
-# "sampleDataDir" is the directory that stores the csv file
+# "dataDir" is the directory that stores the csv file
 dataDir <- rxGetOption("sampleDataDir")
 getwd()
 inputFile <- file.path(dataDir, "AirlineDemoSmall.csv")
@@ -31,11 +31,3 @@ fileXdf <- rxImport(inData = inputFile,
                     missingValueString = "NA",
                     colInfo = colInfo,
                     overwrite = TRUE)
-
-# applying some standard R fuctions to get basic information about the xdf object
-nrow(fileXdf)
-ncol(fileXdf)
-head(fileXdf)
-
-# rxGetVarInfo provides addition variable information
-rxGetVarInfo(fileXdf)
