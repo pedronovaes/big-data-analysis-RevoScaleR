@@ -10,5 +10,5 @@ c) to create scalable data analysis routines that can be developed locally with 
 
 The following tasks are performed at this work:
 
-1) Convert text data to the .xdf data file format
+1) Convert text data to the .xdf data file format																		
 2) Summarize the .xdf data
